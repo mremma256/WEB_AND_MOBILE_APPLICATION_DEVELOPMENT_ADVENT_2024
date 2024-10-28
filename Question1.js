@@ -1,4 +1,10 @@
-/*QN.Define and differentiate between variables and constants in JavaScript.*/
+/*QN. Explain the role of an Integrated Development Environment (IDE) in JavaScript
+programming. */
 
-//Variables are containers for storing data values that can be reassigned while
-//Constants are variables that cannot be reassigned once they have been declared.
+//An Integrated Development Environment (IDE) plays a crucial role in JavaScript programming by providing a 
+//user-friendly interface, code editor, debugging tools, and other essential features.
+
+/*Give two examples of popular IDEs used in for coding in JavaScript*/
+
+//1.Visual Studio Code
+//2.Atom
