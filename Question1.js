@@ -1,10 +1,8 @@
-/*QN. Explain the role of an Integrated Development Environment (IDE) in JavaScript
-programming. */
+/*Write a function in JavaScript called calculateTax that accepts the income of a
+person in Nigeria and returns the tax payable (assume a tax rate of 15%).*/
 
-//An Integrated Development Environment (IDE) plays a crucial role in JavaScript programming by providing a 
-//user-friendly interface, code editor, debugging tools, and other essential features.
-
-/*Give two examples of popular IDEs used in for coding in JavaScript*/
-
-//1.Visual Studio Code
-//2.Atom
+function calculateTax(income) {//start of the function
+    let tax = income * 0.15;//Tax calculation
+    return tax;
+}
+console.log("Tax Payable:",calculateTax(50000));//Tax Output
