@@ -1,9 +1,19 @@
-/*Using a for or while loop, write a program that prints the rainfall recorded in
-millimeters for each of the last 10 days in a rural region in Ghana. Assume the rainfall
-data is stored in a list.*/
+/*QN.In African countries, mobile network providers offer different call rates. Write a JavaScript
+program using a switch statement to print out the call rate based on the user's input for a
+network code (e.g., MTN: 1, Airtel: 2, Africell: 3).*/
 
-let rainfallData = [100, 120, 115, 98, 130, 105, 112, 125, 108, 110];//list of rainfall records
+let networkCode = 1;//declaration of the network code
 
-for (let i = 0; i < rainfallData.length; i++) {
-    console.log(`Day ${i + 1}: ${rainfallData[i]} mm`);//Output of the rainfall records
+switch (networkCode) {
+  case 1:
+    console.log("MTN Call Rate: 0.15 per minute");//This is output when the network code is set to 1
+    break;
+  case 2:
+    console.log("Airtel Call Rate: 0.20 per minute");//This is output when the network code is set to 2
+    break;
+  case 3:
+    console.log("Africell Call Rate: 0.10 per minute");//This is output when the network code is set to 3
+    break;
+  default:
+    console.log("Invalid network code. Please enter a valid network code (1-3).");//This is output when the network code is out of range
 }
